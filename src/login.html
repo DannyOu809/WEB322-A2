@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <!-- stylesheet css -->
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <header>
+            <!-- Logo -->
+            <div class="logo">
+                <img src="./img/icon.png" alt="icon goes here">Canada Web Hosting
+            </div>
+            <!-- Navigation Bar -->
+            <ul class ="navbar">
+                <li><a href="/">Home</a></li>
+                <li><a href="/cwh">Plans</a></li>
+                <li><a href="/login">Login</a></li>
+                <li><a href="/registration">Registration</a></li>
+            </ul>
+            <br>
+        </header>
+
+        <form class="login">
+            <div id="title">Sign In to CWH</div>
+            <fieldset>
+                <input id="defaultInput" type="text" placeholder="Enter Email">
+                <input id="defaultInput" type="password" placeholder="Password">
+                <div id="existing">Forgot password?</div>
+                <br><br>
+
+                <label for="remember">Stay signed in?</label> <!-- I can't figure out how to center this text -->
+                <input id="remember" type="checkbox">
+                <br><br>
+            </fieldset>
+            <button class="login" type="submit">Login</button>
+        </form>
+        <div id="existing">Don't have an account? <a href="/registration">Register here</a></div>
+
+    </body>
+</html>

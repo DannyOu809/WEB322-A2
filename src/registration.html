@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration</title>
+        <!-- stylesheet css -->
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <header>
+            <!-- Logo -->
+            <div class="logo">
+                <img src="./img/icon.png" alt="icon goes here">Canada Web Hosting
+            </div>
+            <!-- Navigation Bar -->
+            <ul class ="navbar">
+                <li><a href="/">Home</a></li>
+                <li><a href="/cwh">Plans</a></li>
+                <li><a href="/login">Login</a></li>
+                <li><a href="/registration">Registration</a></li>
+            </ul>
+            <br>
+        </header>
+
+        <form class="registration">
+            <div id="title">Create an Account</div>
+            <fieldset>
+                <legend>Personal Information</legend>
+                
+                <input id="defaultInput" type="text" placeholder="First Name">
+                <input id="defaultInput" type="text" placeholder="Last Name">
+                <input id="defaultInput" type="email" placeholder="Email Address">
+                <input id="defaultInput" type="tel" placeholder="Phone Number">
+                <br><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Billing Address</legend>
+
+                <input id="company" type="text" placeholder="Company Name (Optional)">
+                <input id="defaultInput" type="text" placeholder="Street Address">
+                <input id="defaultInput" type="text" placeholder="Street Address 2 (Optional)">
+                <input id="defaultInput" type="text" placeholder="City">
+                <input id="defaultInput" type="text" placeholder="State/Province">
+                <input id="defaultInput" type="text" placeholder="Postal Code">
+                <input id="defaultInput" type="text" placeholder="Country">
+                <br><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Account Security</legend>
+
+                <input id="defaultInput" type="password" placeholder="Password">
+                <input id="defaultInput" type="password" placeholder="Confirm Password">
+                <br><br>
+            </fieldset>
+            <label for=tos>Do you read and accept the Terms of Service</label>
+            <input id="tos" type="checkbox" required>
+            <br><br>
+            <button class="registration" type="submit">Register</button>
+        </form>
+        <div id="existing">Already have an Account? <a href="/login">Login here</a></div>
+    </body>
+</html>

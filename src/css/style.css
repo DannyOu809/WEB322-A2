@@ -1,0 +1,166 @@
+.logo {
+    display: inline;
+    font-size: xx-large;
+}
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkslateblue;
+}
+li {
+    float: left;
+}
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    outline-style: solid;
+    outline-color: white;
+    outline-width: 1px;
+}
+#search {
+    text-align: center;
+}
+#searchbar {
+    margin:auto;
+    height: 25px;
+    width: 1000px;
+    border-radius: 10px;
+    border-color: lightgray;
+}
+#searchbutton {
+    height: 30px;
+    width: 75px;
+    border-radius: 10px;
+    border-color: lightgray;
+}
+#banner {
+    width: 100%;
+    height: auto;
+}
+#cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+    text-align: center;
+}
+#card {
+    background-color: rgb(219, 219, 219);
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    height: 350px;
+    font-size: large;
+}
+#icons {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 200px;
+}
+#footer {
+    text-align: center;
+    font-size:40pt;
+    color: white;
+    height: 150px;
+    background-color: darkslateblue;
+}
+#phone {
+    text-align: center;
+    width: 200px;
+    background-color: rebeccapurple;
+    border-radius: 5px;
+    font-size: 15pt;
+    margin: auto;
+}
+
+
+#title {
+    text-align: center;
+    font-size: 35pt;
+}
+.registration {
+    margin: auto;
+    border-radius: 10px;
+    width: 650px;
+}
+fieldset {
+    border-radius: 10px;
+    border-color: violet;
+    margin-bottom: 10pt;
+}
+#defaultInput {
+    width: 250px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+#company {
+    width: 542px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+#existing {
+    margin-top: 10px;
+    text-align: center;
+}
+.login {
+    margin: auto;
+    border-radius: 10px;
+    width: 350px;
+}
+
+
+#plans {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+}
+#plan {
+    background-color: rgb(86, 1, 167);
+    padding: 20px;
+    width: 400px;
+    height: 600px;
+    font-size: large;
+}
+#popular {
+    background-color: rgb(153, 0, 255);
+    padding: 20px;
+    width: 400px;
+    height: 600px;
+    font-size: large;
+}
+#planType {
+    font-weight: 700;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+#popularLabel {
+    background: purple;
+    outline-color: purple;
+    outline-width: 6pt;
+    outline-style: dashed;
+    font-size: 20pt;
+    font-weight: bold;
+    padding: 8px;
+    width: 150px;
+    margin: auto;
+    margin-top: -43px;
+}
